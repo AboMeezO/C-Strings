@@ -6,7 +6,7 @@
 /*   By: mohammah <mohammah@learner.42.tech>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/14 10:13:21 by mohammah          #+#    #+#             */
-/*   Updated: 2026/08/14 10:25:50 by mohammah         ###   ########.fr       */
+/*   Updated: 2026/08/14 10:28:42 by mohammah         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,5 +23,6 @@ char	*ft_strncpy(char *dest, char *src, unsigned int n)
 			dest[index] = 0;
 		index++;
 	}
+	dest[index] = '\0';
 	return (dest);
 }
