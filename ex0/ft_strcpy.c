@@ -6,12 +6,12 @@
 /*   By: mohammah <mohammah@learner.42.tech>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/14 09:15:02 by mohammah          #+#    #+#             */
-/*   Updated: 2026/08/14 10:11:39 by mohammah         ###   ########.fr       */
+/*   Updated: 2026/08/14 10:16:51 by mohammah         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include <stdio.h>
 
-char	*ft_strncpy(char *dest, char *src)
+char	*ft_strcpy(char *dest, char *src)
 {
 	int	index;
 
