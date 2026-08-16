@@ -6,7 +6,7 @@
 /*   By: mohammah <mohammah@learner.42.tech>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/17 00:25:54 by mohammah          #+#    #+#             */
-/*   Updated: 2026/08/17 00:40:30 by mohammah         ###   ########.fr       */
+/*   Updated: 2026/08/17 00:56:26 by mohammah         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,10 +25,9 @@ int	ft_strncmp(char *s1, char *s2, unsigned int n)
 			else
 				return (-1);
 		}
-		else 
+		else
 			break ;
 		index++;
 	}
 	return (0);
-
 }
