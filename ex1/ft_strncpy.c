@@ -6,7 +6,7 @@
 /*   By: mohammah <mohammah@learner.42.tech>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/14 10:13:21 by mohammah          #+#    #+#             */
-/*   Updated: 2026/08/14 10:28:42 by mohammah         ###   ########.fr       */
+/*   Updated: 2026/08/17 14:51:52 by mohammah         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ char	*ft_strncpy(char *dest, char *src, unsigned int n)
 	index = 0;
 	while (index < n)
 	{
-		if(src[index])
+		if (src[index])
 			dest[index] = src[index];
 		else
 			dest[index] = 0;
