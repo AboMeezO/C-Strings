@@ -6,13 +6,13 @@
 /*   By: mohammah <mohammah@learner.42.tech>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/14 10:13:21 by mohammah          #+#    #+#             */
-/*   Updated: 2026/08/17 14:51:52 by mohammah         ###   ########.fr       */
+/*   Updated: 2026/08/18 11:02:00 by mohammah         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 char	*ft_strncpy(char *dest, char *src, unsigned int n)
 {
-	int	index;
+	unsigned int	index;
 
 	index = 0;
 	while (index < n)
@@ -23,6 +23,5 @@ char	*ft_strncpy(char *dest, char *src, unsigned int n)
 			dest[index] = 0;
 		index++;
 	}
-	dest[index] = '\0';
 	return (dest);
 }
