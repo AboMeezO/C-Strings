@@ -6,11 +6,11 @@
 /*   By: mohammah <mohammah@learner.42.tech>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/17 00:40:57 by mohammah          #+#    #+#             */
-/*   Updated: 2026/08/17 00:59:55 by mohammah         ###   ########.fr       */
+/*   Updated: 2026/08/18 11:02:00 by mohammah         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-char	*strcat(char *dest, char *src)
+char	*ft_strcat(char *dest, char *src)
 {
 	int	index_src;
 	int	index_dest;
