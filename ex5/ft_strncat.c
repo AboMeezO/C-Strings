@@ -6,14 +6,14 @@
 /*   By: mohammah <mohammah@learner.42.tech>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/17 00:58:00 by mohammah          #+#    #+#             */
-/*   Updated: 2026/08/17 01:14:41 by mohammah         ###   ########.fr       */
+/*   Updated: 2026/08/19 12:48:10 by mohammah         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 char	*ft_strncat(char *dest, char *src, unsigned int nb)
 {
-	int	index;
-	int	index_src;
+	unsigned int	index;
+	unsigned int	ndex_src;
 
 	index = 0;
 	index_src = 0;
