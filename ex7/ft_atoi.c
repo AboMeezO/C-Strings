@@ -6,7 +6,7 @@
 /*   By: mohammah <mohammah@learner.42.tech>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/17 01:42:58 by mohammah          #+#    #+#             */
-/*   Updated: 2026/08/18 11:02:00 by mohammah         ###   ########.fr       */
+/*   Updated: 2026/08/19 09:44:44 by mohammah         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,8 +19,7 @@ int	ft_atoi(char *str)
 	index = 0;
 	sign = 1;
 	number = 0;
-	while (str[index] == ' ' || str[index] == '\t' || str[index] == '\n'
-		|| str[index] == '\v' || str[index] == '\f' || str[index] == '\r')
+	while (str[index] == ' ' || (str[index] >= 9 && 13 >= str[index]))
 		index++;
 	while (str[index] == '+' || str[index] == '-')
 	{
@@ -35,3 +34,16 @@ int	ft_atoi(char *str)
 	}
 	return (number * sign);
 }
+/*
+#include <stdio.h>
+int main (int ac, char **av)
+{
+	if (ac < 2)
+	{
+		printf("please provide a valid number\n");
+		return 0;
+	}
+	int number = ft_atoi(av[1]);
+	printf("%d\n", number);
+	return (0);
+}*/
